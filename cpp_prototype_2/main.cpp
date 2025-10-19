@@ -240,8 +240,6 @@ int main(){
         // Render
         glClearColor(1.0, 1.0, 1.0, 1.0);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        
-
 
         // glDrawArrays(GL_TRIANGLES, 0, 36);
 
@@ -308,22 +306,3 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset){
     if(fov<1.0f) fov=1.0f;
     if(fov>45.0f) fov=45.0f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

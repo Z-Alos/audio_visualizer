@@ -1,0 +1,1 @@
+sudo Pacman -S portaudio
